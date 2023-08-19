@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryptor - Decryptor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcEDBmD1yqGmlPDLL4-ti3yLSMGntsFXgdw4yUY_yTQ&s">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Encryptor - Decryptor</h1>
+        <label for="message">Message: </label>
+        <textarea id="message" cols="30" rows="5" placeholder="Enter the secret message to Encrypt or Decrypt!"></textarea>
+        <label for="key">Key: </label>
+        <input type="text" id="key" value="Anirudh" size="50">
+        <div class="buttons">
+            <button id="enc-btn">Encrypt</button>
+            <button id="dec-btn">Decrypt</button>
+        </div>
+
+        <h2>Result: </h2>
+        <div id="result"></div>
+    </div>
+    <div class="footer">Anirudh &copy; 2023</div>
+    <script src="script.js"></script>
+</body>
+</html>
